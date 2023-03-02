@@ -1,0 +1,16 @@
+package model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class Power {
+    private int powerId;
+    private String powerName;
+    private int powerLevel;
+    private String powerIntro;
+}

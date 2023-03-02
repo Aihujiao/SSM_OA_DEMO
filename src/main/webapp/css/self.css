@@ -1,0 +1,31 @@
+/* layui类名 */
+
+.layui-card-header{
+	text-align: center;
+	background-color: #393D49;
+	color: #F6F6F6;
+}
+.layui-tab-title{
+	padding: 0 10%;
+}
+.layui-tab-content{
+	padding: 8% 35%;
+}
+.layui-input-inline{
+	width: 57% !important;
+}
+/* 自定义类名 */
+.longInputBox{
+	width: 80% !important;
+}
+.tabTitle{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.pageBody{
+	top: 50%;
+	transform: translateY(-50%);
+	width: 60% !important;
+	margin: 0 auto;
+}
